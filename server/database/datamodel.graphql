@@ -1,0 +1,8 @@
+type Post {
+  id: ID! @unique
+  isPublished: Boolean! @default(value: true)
+  title: String!
+  text: String!
+  file: String
+  fileName: String
+}
